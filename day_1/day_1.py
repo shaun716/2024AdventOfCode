@@ -16,7 +16,7 @@ new_list2.sort()
 #Iterating through num_list1, subtracting value of new_list2 from new_list1 at each iteration to calculate distance
 for i in range(len(new_list1)):
 
-    #Result of subtraction is passed to int() and then abs()
+    #Current iteration values are passed to int() function and then result is passed to abs()
     total_distance += abs(int(new_list1[i]) - int(new_list2[i]))
 
 print(f"Total distance = {total_distance}")
